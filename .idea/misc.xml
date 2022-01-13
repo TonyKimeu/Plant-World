@@ -3,14 +3,31 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Dojo/Mobile/Templates/UI/Challenges/PlantIDChallenge/PlantChallenge/app/src/main/res/drawable-v24/top_card_view_bg.xml" value="0.16666666666666666" />
+        <entry key="..\:/Dojo/Mobile/Templates/UI/Challenges/PlantIDChallenge/PlantChallenge/app/src/main/res/drawable/bottom_card_view_bg.xml" value="0.11979166666666667" />
+        <entry key="..\:/Dojo/Mobile/Templates/UI/Challenges/PlantIDChallenge/PlantChallenge/app/src/main/res/drawable/ic_android_black_24dp.xml" value="0.20052083333333334" />
+        <entry key="..\:/Dojo/Mobile/Templates/UI/Challenges/PlantIDChallenge/PlantChallenge/app/src/main/res/drawable/ic_plant1.xml" value="0.1" />
+        <entry key="..\:/Dojo/Mobile/Templates/UI/Challenges/PlantIDChallenge/PlantChallenge/app/src/main/res/drawable/top_card_view_bg.xml" value="0.11979166666666667" />
+        <entry key="..\:/Dojo/Mobile/Templates/UI/Challenges/PlantIDChallenge/PlantChallenge/app/src/main/res/drawable/white_card_view_bg.xml" value="0.16666666666666666" />
         <entry key="..\:/Dojo/Mobile/Templates/UI/Challenges/PlantIDChallenge/PlantChallenge/app/src/main/res/layout/activity_main.xml" value="0.11367753623188406" />
+        <entry key="..\:/Dojo/Mobile/Templates/UI/Challenges/PlantIDChallenge/PlantChallenge/app/src/main/res/layout/activity_welcome.xml" value="0.16666666666666666" />
+        <entry key="..\:/Dojo/Mobile/Templates/UI/Challenges/PlantIDChallenge/PlantChallenge/app/src/main/res/layout/content_main.xml" value="0.10364583333333334" />
+        <entry key="..\:/Dojo/Mobile/Templates/UI/Challenges/PlantIDChallenge/PlantChallenge/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Dojo/Mobile/Templates/UI/Challenges/PlantIDChallenge/PlantChallenge/app/src/main/res/layout/fragment_welcome.xml" value="0.22" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_15" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.22" />
+      </ProjectState>
+    </option>
   </component>
 </project>
