@@ -2,7 +2,7 @@
 
 
 A demo showcasing use of 
-- ConstrainLayout
+- ConstraintLayout
 -  ViewModel
 - Databinding
 - Recycler view 
