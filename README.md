@@ -6,7 +6,7 @@ A demo showcasing use of
 -  ViewModel
 - Databinding
 - Recycler view 
-- Implementation of the various material components
+- various material components
 
 to implement the given UI
 
