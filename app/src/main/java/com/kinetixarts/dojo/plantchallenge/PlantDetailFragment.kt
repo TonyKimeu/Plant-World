@@ -41,7 +41,8 @@ class PlantDetailFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        (activity as AppCompatActivity).setSupportActionBar(view.findViewById(R.id.toolbar))
+        (activity as AppCompatActivity).setSupportActionBar(binding.toolbar)
+        (activity as AppCompatActivity).supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
     }
 
@@ -55,6 +56,11 @@ class PlantDetailFragment : Fragment() {
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null
+        clearToolbarMenu()
+    }
+
+    fun clearToolbarMenu() {
+        binding.toolbar.menu.clear()
     }
 
 }

@@ -2,6 +2,7 @@ package com.kinetixarts.dojo.plantchallenge
 
 import android.os.Bundle
 import android.view.*
+import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.kinetixarts.dojo.plantchallenge.databinding.FragmentHomeBinding
@@ -34,7 +35,10 @@ class HomeFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
+        (activity as AppCompatActivity).setSupportActionBar(view.findViewById(R.id.toolbar))
+        binding.item1.setOnClickListener {
+            findNavController().navigate(R.id.action_HomeFragment_to_DetailFragment)
+        }
 //        binding.buttonSecond.setOnClickListener {
 //            findNavController().navigate(R.id.action_SecondFragment_to_FirstFragment)
 //        }

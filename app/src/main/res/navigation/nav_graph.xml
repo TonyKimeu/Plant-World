@@ -3,36 +3,33 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/DetailsFragment">
+    app:startDestination="@id/HomeFragment">
 
     <fragment
-        android:id="@+id/FirstFragment"
+        android:id="@+id/HomeFragment"
         android:name="com.kinetixarts.dojo.plantchallenge.HomeFragment"
         android:label="@string/first_fragment_label"
         tools:layout="@layout/fragment_welcome">
-
         <action
-            android:id="@+id/action_FirstFragment_to_SecondFragment"
-            app:destination="@id/SecondFragment" />
+            android:id="@+id/action_HomeFragment_to_DetailFragment"
+            app:destination="@id/DetailsFragment" />
     </fragment>
     <fragment
         android:id="@+id/DetailsFragment"
         android:name="com.kinetixarts.dojo.plantchallenge.PlantDetailFragment"
         android:label="@string/details_fragment_label"
         tools:layout="@layout/plant_detail_fragment">
-
         <action
-            android:id="@+id/action_FirstFragment_to_SecondFragment"
-            app:destination="@id/SecondFragment" />
+            android:id="@+id/action_DetailFragment_to_HomeFragment"
+            app:destination="@id/HomeFragment" />
     </fragment>
     <fragment
-        android:id="@+id/SecondFragment"
+        android:id="@+id/WelcomeFragment"
         android:name="com.kinetixarts.dojo.plantchallenge.WelcomeFragment"
         android:label="@string/second_fragment_label"
         tools:layout="@layout/fragment_home">
-
         <action
-            android:id="@+id/action_SecondFragment_to_FirstFragment"
-            app:destination="@id/FirstFragment" />
+            android:id="@+id/action_WelcomeFragment_to_HomeFragment"
+            app:destination="@id/HomeFragment" />
     </fragment>
 </navigation>
