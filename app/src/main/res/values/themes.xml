@@ -14,13 +14,29 @@
         <!-- Customize your theme here. -->
         <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
     </style>
+    <!-- Detail theme. -->
+    <style name="Theme.PlantDetails" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary</item>
+        <item name="colorOnPrimary">@color/primary</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/primary</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+    </style>
 
     <style name="Theme.PlantChallenge.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
 
+    <style name="BuyBox">
+        <item name="android:background">@color/primary</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
     <style name="Theme.PlantChallenge.AppBarOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="Theme.PlantDetailsOverlay" parent="ThemeOverlay.AppCompat.Dark" />
 
     <style name="Theme.PlantChallenge.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

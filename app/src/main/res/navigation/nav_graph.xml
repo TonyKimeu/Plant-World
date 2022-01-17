@@ -3,13 +3,23 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/FirstFragment">
+    app:startDestination="@id/DetailsFragment">
 
     <fragment
         android:id="@+id/FirstFragment"
         android:name="com.kinetixarts.dojo.plantchallenge.HomeFragment"
         android:label="@string/first_fragment_label"
         tools:layout="@layout/fragment_welcome">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/DetailsFragment"
+        android:name="com.kinetixarts.dojo.plantchallenge.PlantDetailFragment"
+        android:label="@string/details_fragment_label"
+        tools:layout="@layout/plant_detail_fragment">
 
         <action
             android:id="@+id/action_FirstFragment_to_SecondFragment"

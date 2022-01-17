@@ -5,6 +5,7 @@
       <map>
         <entry key="..\:/Dojo/Mobile/Templates/UI/Challenges/PlantIDChallenge/PlantChallenge/app/src/main/res/drawable-v24/top_card_view_bg.xml" value="0.16666666666666666" />
         <entry key="..\:/Dojo/Mobile/Templates/UI/Challenges/PlantIDChallenge/PlantChallenge/app/src/main/res/drawable/bottom_card_view_bg.xml" value="0.11979166666666667" />
+        <entry key="..\:/Dojo/Mobile/Templates/UI/Challenges/PlantIDChallenge/PlantChallenge/app/src/main/res/drawable/details_card_view_bg.xml" value="0.13368055555555555" />
         <entry key="..\:/Dojo/Mobile/Templates/UI/Challenges/PlantIDChallenge/PlantChallenge/app/src/main/res/drawable/ic_android_black_24dp.xml" value="0.20052083333333334" />
         <entry key="..\:/Dojo/Mobile/Templates/UI/Challenges/PlantIDChallenge/PlantChallenge/app/src/main/res/drawable/ic_plant1.xml" value="0.1" />
         <entry key="..\:/Dojo/Mobile/Templates/UI/Challenges/PlantIDChallenge/PlantChallenge/app/src/main/res/drawable/top_card_view_bg.xml" value="0.11979166666666667" />
@@ -12,8 +13,9 @@
         <entry key="..\:/Dojo/Mobile/Templates/UI/Challenges/PlantIDChallenge/PlantChallenge/app/src/main/res/layout/activity_main.xml" value="0.11367753623188406" />
         <entry key="..\:/Dojo/Mobile/Templates/UI/Challenges/PlantIDChallenge/PlantChallenge/app/src/main/res/layout/activity_welcome.xml" value="0.16666666666666666" />
         <entry key="..\:/Dojo/Mobile/Templates/UI/Challenges/PlantIDChallenge/PlantChallenge/app/src/main/res/layout/content_main.xml" value="0.10364583333333334" />
-        <entry key="..\:/Dojo/Mobile/Templates/UI/Challenges/PlantIDChallenge/PlantChallenge/app/src/main/res/layout/fragment_home.xml" value="0.22" />
+        <entry key="..\:/Dojo/Mobile/Templates/UI/Challenges/PlantIDChallenge/PlantChallenge/app/src/main/res/layout/fragment_home.xml" value="0.14666666666666667" />
         <entry key="..\:/Dojo/Mobile/Templates/UI/Challenges/PlantIDChallenge/PlantChallenge/app/src/main/res/layout/fragment_welcome.xml" value="0.22" />
+        <entry key="..\:/Dojo/Mobile/Templates/UI/Challenges/PlantIDChallenge/PlantChallenge/app/src/main/res/layout/plant_detail_fragment.xml" value="0.22" />
         <entry key="..\:/Dojo/Mobile/Templates/UI/Challenges/PlantIDChallenge/PlantChallenge/app/src/main/res/menu/home_menu.xml" value="0.12291666666666666" />
       </map>
     </option>
